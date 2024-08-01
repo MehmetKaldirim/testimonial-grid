@@ -13,7 +13,45 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Testimonial Grid</title>
   </head>
-  <body>
-    <h1 class="text-3xl text-red-500">Tailwind simple starter</h1>
+  <body class="bg-gray-300">
+    <!--Global Container-->
+    <div class="container mx-auto max-w-7xl p-2 md:p-10">
+      <!--Grid Container-->
+      <div class="text-white">
+        <!--Box 1-->
+        <div class="relative p-10 rounded-xl bg-purple-700">
+          <!--Quotes Image -->
+          <img
+            src="images/bg-pattern-quotation.svg"
+            alt=""
+            class="absolute top-3 right-10 scale-125 md:top-7 md:24 md:scale-150"
+          />
+          <!--Header of Box-->
+          <div class="flex z-10 space-x-4">
+            <img
+              src="images/image-daniel.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">Daniel Cellphone</h4>
+              <p class="opacity-50">Verified Graduate</p>
+            </div>
+          </div>
+          <!--Large Text-->
+          <p class="relative z-10 mt-6 text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            suscipit facilis illum dolorem tenetur numquam consectetur repellat
+            necessitatibus aut neque.
+          </p>
+          <!--Small Text-->
+          <p class="mt-6 opacity-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            illo est hic quis impedit distinctio similique sed inventore iure
+            explicabo!
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
